@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<library name=".NET Developer's Library">
+  <students>
+    <student>
+      <name>Jhon Jakson</name>
+      <gender>Male</gender>
+      <birthdate>19.03.1980</birthdate>
+      <phone>+359/889-15-45-65</phone>
+      <email>jhon.jakson@gmail.com</email>
+      <course>Databases</course>
+      <specialty>Web developer track</specialty>
+      <facultynumber>608956</facultynumber>
+      <exams>
+        <exam>
+          <name>Design Patterns</name>
+          <tutor>Viktor Tzvetkov</tutor>
+          <score>Excellent</score>
+        </exam>
+        <exam>
+          <name>High-quality code</name>
+          <tutor>Steven Tzvetkov</tutor>
+          <score>Passed</score>
+        </exam>
+        <exam>
+          <name>Databases</name>
+          <tutor>Doncho Minkov</tutor>
+          <score>Excellent</score>
+        </exam>
+    </exams>
+    </student>
+    <student>
+      <name>Natalie Klein</name>
+      <gender>Female</gender>
+      <birthdate>18.05.1990</birthdate>
+      <phone>+359/889-18-45-55</phone>
+      <email>natalie.klein@gmail.com</email>
+      <course>Design Patterns</course>
+      <specialty>Mobile track</specialty>
+      <facultynumber>805623</facultynumber>
+      <exams>
+        <exam>
+          <name>Design Patterns</name>
+          <tutor>Steven Tzvetkov</tutor>
+          <score>Passed</score>
+        </exam>
+        <exam>
+          <name>Unit Testing</name>
+          <tutor>Martin Veshev</tutor>
+          <score>Failed</score>
+        </exam>
+        <exam>
+          <name>C# Advanced</name>
+          <tutor>Ivan Kolev</tutor>
+          <score>Excellent</score>
+        </exam>
+      </exams>
+    </student>
+    <student>
+      <name>Mark Montoya</name>
+      <gender>Male</gender>
+      <birthdate>29.04.1993</birthdate>
+      <phone>+359/888-19-22-29</phone>
+      <email>mark.montoya@gmail.com</email>
+      <course>JavaScript Applications</course>
+      <specialty>Front-end developer</specialty>
+      <facultynumber>789536</facultynumber>
+      <exams>
+        <exam>
+          <name>JavaScript Fundamentals</name>
+          <tutor>Doncho Minkov</tutor>
+          <score>Passed</score>
+        </exam>
+        <exam>
+          <name>JavaScript UI &amp; DOM</name>
+          <tutor>Doncho Minkov</tutor>
+          <score>Excellent</score>
+        </exam>
+        <exam>
+          <name>JavaScript OOP</name>
+          <tutor>Doncho Minkov</tutor>
+          <score>Excellent</score>
+        </exam>
+        <exam>
+          <name>JavaScript Applications</name>
+          <tutor>Doncho Minkov</tutor>
+          <score>Passed</score>
+        </exam>
+      </exams>
+    </student>
+  </students>
+</library>
+
+<!--Create XML document students.xml, which contains structured description of students.
+For each student you should enter information for his name, sex, birth date, phone, email, course, specialty, faculty number and a list of taken exams (exam name, tutor, score).-->
