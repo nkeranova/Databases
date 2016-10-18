@@ -28,8 +28,6 @@ If you want to study these subjects first, find the tutorials on our Home page.
 
 ###XML Does Not Use Predefined Tags
  * The XML language has no predefined tags.
- * The tags in the example above (like <to> and <from>) are not defined in any XML standard. These tags are "invented" by the author of the XML document.
- * HTML works with predefined tags like <p>, <h1>, <table>, etc.
  * With XML, the author must define both the tags and the document structure.
 
 ###XML is Extensible
