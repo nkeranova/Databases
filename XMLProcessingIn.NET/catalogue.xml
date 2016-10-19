@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<library name=".NET Developer's Library">
+  <catalog>
+  <albums>
+    <album>
+      <name>Jazzmatazz, Vol. 1</name>
+      <artist>Guru</artist>
+      <year>1993</year>
+      <producer>Guru</producer>
+      <price>79.99</price>
+      <songs>
+        <song>
+          <title>Loungin</title>
+          <duration>4:38</duration>
+        </song>
+        <song>
+          <title>Take a Look (At Yourself)</title>
+          <duration>3:59</duration>
+        </song>
+        <song>
+          <title>Trust Me</title>
+          <duration>4:27</duration>
+        </song>
+      </songs>
+    </album>
+    <album>
+      <name>Jazzmatazz, Vol. 2: The New Reality</name>
+      <artist>Guru</artist>
+      <year>1995</year>
+      <producer>Guru</producer>
+      <price>49.99</price>
+      <songs>
+        <song>
+          <title>Looking Through Darkness</title>
+          <duration>4:48</duration>
+        </song>
+        <song>
+          <title>Lost Souls</title>
+          <duration>54:12</duration>
+        </song>
+        <song>
+          <title>Respect The Architect</title>
+          <duration>4:51</duration>
+        </song>
+      </songs>
+    </album>
+    <album>
+      <name>Moment of Truth</name>
+      <artist>Gang Starr</artist>
+      <year>1998</year>
+      <producer>DJ Premier, Guru</producer>
+      <price>25.60</price>
+      <songs>
+        <song>
+          <title>Moment of Truth</title>
+          <duration>4:07</duration>
+        </song>
+        <song>
+          <title>Work</title>
+          <duration>2:57</duration>
+        </song>
+      </songs>
+    </album>
+    <album>
+      <name>Running on Air</name>
+      <artist>Bliss N Eso</artist>
+      <year>2010</year>
+      <producer>Jonathon Notley, Hattori Hunzo</producer>
+      <price>20.00</price>
+      <songs>
+        <song>
+          <title>Addicted</title>
+          <duration>3:51</duration>
+        </song>
+        <song>
+          <title>Coastal Kids</title>
+          <duration>3:57</duration>
+        </song>
+      </songs>
+    </album>
+    <album>
+      <name>The Funkiest</name>
+      <artist>Funkdoobiest</artist>
+      <year>2001</year>
+      <producer>Sony Music Special Products</producer>
+      <price>30.00</price>
+      <songs>
+        <song>
+          <title>The Funkiest</title>
+          <duration>3:23</duration>
+        </song>
+        <song>
+          <title>Bow Bow Bow</title>
+          <duration>4:14</duration>
+        </song>
+        <song>
+          <title>Rock On</title>
+          <duration>3:55</duration>
+        </song>
+      </songs>
+    </album>
+  </albums>
+ </catalog>
+</library>
+
+<!--
+<album>
+      <name></name>
+      <artist></artist>
+      <year></year>
+      <producer></producer>
+      <price></price>
+      <songs>
+        <song>
+          <title></title>
+          <duration></duration>
+        </song>
+        <song>
+          <title></title>
+          <duration></duration>
+        </song>
+        <song>
+          <title></title>
+          <duration></duration>
+        </song>
+      </songs>
+    </album>
+-->
