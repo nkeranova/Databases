@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<library name=".NET Developer's Library">
-  <catalog>
-  <albums>
+<!--<library name=".NET Developer's Library">-->
+  <catalogue>
     <album>
       <name>Jazzmatazz, Vol. 1</name>
       <artist>Guru</artist>
@@ -66,7 +65,7 @@
       <artist>Bliss N Eso</artist>
       <year>2010</year>
       <producer>Jonathon Notley, Hattori Hunzo</producer>
-      <price>20.00</price>
+      <price>10.00</price>
       <songs>
         <song>
           <title>Addicted</title>
@@ -99,9 +98,8 @@
         </song>
       </songs>
     </album>
-  </albums>
- </catalog>
-</library>
+ </catalogue>
+<!--</library>-->
 
 <!--
 <album>

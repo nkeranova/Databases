@@ -2,21 +2,27 @@
 using System.Collections.Generic;
 using System.Xml;
 
-namespace ExtractArtistsFromCatalog
+namespace ExtractArtistsFromCatalogUsingXPath
 {
-    class ExtractArtists
+    class ExtractUsingXPath
     {
         static void Main()
         {
             XmlDocument doc = new XmlDocument();
             doc.Load("../../../catalogue.xml");
 
+            string xPath = "/catalogue/album/artist";
+
+            var artistNodes = doc.SelectNodes(xPath);
+
+            foreach (XmlElement artist in artistNodes)
+            {
+                Console.WriteLine(artist.InnerText);
+            }
+
+            Console.WriteLine();
+
             XmlElement catalogue = doc.DocumentElement;
-
-            var artists = PrintListOfArtists(catalogue);
-
-            Console.Write("List of all artists in current catalague: " + string.Join(", ", artists));
-            Console.Write(".\n\n");
 
             var albumsCount = ExtractNumberOfAlbumsPerArtist(catalogue);
 
@@ -45,21 +51,6 @@ namespace ExtractArtistsFromCatalog
             }
 
             return counter;
-        }
-
-        private static ICollection<string> PrintListOfArtists(XmlElement catalogue)
-        {
-            var artists = new HashSet<string>();
-            
-            foreach (XmlElement album in catalogue.ChildNodes)
-            {
-                var artist = album["artist"];
-                //Console.WriteLine(artist.InnerText);
-
-                artists.Add(artist.InnerText);
-            }
-
-            return artists;
         }
     }
 }
