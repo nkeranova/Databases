@@ -1,0 +1,22 @@
+Connection string for "PetStore" database:
+	metadata=res://*/PetStoreEntities.csdl|res://*/PetStoreEntities.ssdl|res://*/PetStoreEntities.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=\SqlExpress2014;initialcatalog=PetStore;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;
+
+Connection string for "SocialNetwork" database:
+	Data Source=.\SqlExpress2014;Initial Catalog=SocialNetwork;Integrated Security=true
+
+Relationships for "PetStore" database: 
+	Products : Categories - Many to One
+	Products : Species - Many to Many
+	Species : Countries - Many to One
+	Pets : Species - Many to One
+	Pets : Colors - Many to One
+
+Relationships for "SocialNetwork" database: 
+	UserProfile : Image - One to Many
+	UserProfile : Messages - One to Many
+	UserProfile : Posts - Many to Many
+	UserProfile : Friendships - Many to One (twice)
+ 	Message : Friendships - Many to One
+	
+
+JSON Result files location: the "Debug/bin" folder of the ConsoleClient

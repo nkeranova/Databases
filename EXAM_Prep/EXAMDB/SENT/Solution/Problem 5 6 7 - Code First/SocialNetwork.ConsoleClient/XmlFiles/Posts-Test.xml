@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Posts>
+  <Post>
+    <Content>Qm mandja</Content>
+    <PostedOn>2010-02-20T09:12:45</PostedOn>
+    <Users>Pesho,Gosho</Users>
+  </Post>
+  <Post>
+    <Content>Piq bira sam</Content>
+    <PostedOn>2015-08-25T19:12:25</PostedOn>
+    <Users>Pesho</Users>
+  </Post>
+  <Post>
+    <Content>Na kOpon</Content>
+    <PostedOn>2010-07-02T09:12:45</PostedOn>
+    <Users>Pesho,Gosho,RandomMacka97</Users>
+  </Post>
+</Posts>

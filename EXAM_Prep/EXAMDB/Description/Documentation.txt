@@ -1,0 +1,13 @@
+Connection string for "PetStore" database:
+	(fill in here)
+
+Connection string for "SocialNetwork" database:
+	(fill in here)
+
+Relationships for "PetStore" database: 
+	(fill in here)
+
+Relationships for "SocialNetwork" database: 
+	(fill in here)
+	
+JSON Result files location: (fill in here)

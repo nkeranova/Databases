@@ -1,0 +1,8 @@
+SELECT s.Name AS Species, COUNT(p.Id) AS Products
+FROM PetStore.dbo.Species s
+INNER JOIN PetStore.dbo.ProductsSpecies ps
+ON ps.SpeciesId = s.Id
+INNER JOIN PetStore.dbo.Products p
+ON ps.ProductId = p.Id
+GROUP BY s.Name
+ORDER BY Products
