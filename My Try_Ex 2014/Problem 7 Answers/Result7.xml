@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Car Manufacturer="Renaut" Model="Clio 1.4" Year="2003" Price="5500.00">
+    <TransmissionType>manual</TransmissionType>
+    <Dealer Name="TA Моторс">
+      <Cities>
+        <City>Sofia</City>
+        <City>Kyustendil</City>
+      </Cities>
+    </Dealer>
+  </Car>
+  <Car Manufacturer="Opel" Model="Tigra" Year="1997" Price="5000.00">
+    <TransmissionType>manual</TransmissionType>
+    <Dealer Name="TA Моторс">
+      <Cities>
+        <City>Sofia</City>
+        <City>Kyustendil</City>
+      </Cities>
+    </Dealer>
+  </Car>
+</Cars>

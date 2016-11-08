@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<Cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Car Manufacturer="Mazda" Model="6 Skyactiv" Year="2014" Price="60000.00">
+    <TransmissionType>manual</TransmissionType>
+    <Dealer Name="Star Motors">
+      <Cities>
+        <City>Sofia</City>
+      </Cities>
+    </Dealer>
+  </Car>
+  <Car Manufacturer="BMW" Model="320i Cabrio" Year="2008" Price="30000.00">
+    <TransmissionType>automatic</TransmissionType>
+    <Dealer Name="MM Auto">
+      <Cities>
+        <City>Sofia</City>
+      </Cities>
+    </Dealer>
+  </Car>
+  <Car Manufacturer="Renaut" Model="Clio 1.4" Year="2003" Price="5500.00">
+    <TransmissionType>manual</TransmissionType>
+    <Dealer Name="TA Моторс">
+      <Cities>
+        <City>Sofia</City>
+      </Cities>
+    </Dealer>
+  </Car>
+</Cars>

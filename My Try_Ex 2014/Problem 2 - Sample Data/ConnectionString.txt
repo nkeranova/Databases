@@ -1,0 +1,1 @@
+metadata=res://*/CompanyEntities.csdl|res://*/CompanyEntities.ssdl|res://*/CompanyEntities.msl;provider=System.Data.SqlClient;provider connection string="data source=.;initial catalog=Company;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework"

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Car Manufacturer="Mazda" Model="6 Skyactiv" Year="2014" Price="60000.00">
+    <TransmissionType>manual</TransmissionType>
+    <Dealer Name="Star Motors">
+      <Cities>
+        <City>Sofia</City>
+      </Cities>
+    </Dealer>
+  </Car>
+</Cars>

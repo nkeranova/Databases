@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Car Manufacturer="zVKNbOL" Model="jmWRnkVnGUugKhgcfDaL" Year="1995" Price="104486.00">
+    <TransmissionType>automatic</TransmissionType>
+    <Dealer Name="aVhMNylErc">
+      <Cities>
+        <City>OPKZMOqK</City>
+        <City>TvSjPvTF</City>
+        <City>vElNRYqn</City>
+        <City>iYFhupBr</City>
+        <City>sgKPhxwF</City>
+        <City>ntYvegwL</City>
+        <City>FKFGdorx</City>
+        <City>QgTHSqVe</City>
+        <City>fVqilEYT</City>
+        <City>mMrtfOve</City>
+        <City>FAROWtYv</City>
+        <City>lOzzPTbq</City>
+        <City>HEqoIJPx</City>
+        <City>ZXvFJkHF</City>
+        <City>tVrKcniK</City>
+      </Cities>
+    </Dealer>
+  </Car>
+</Cars>

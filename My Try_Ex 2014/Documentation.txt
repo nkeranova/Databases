@@ -1,0 +1,16 @@
+Connection string for "Company" database:
+	"\Problem 2 - Sample Data\Company.DataGenerator\App.config"
+Connection string for "Cars" database:
+	"\Problem 5, 6 and 7\Cars.Importer\App.config"
+	"\Problem 5, 6 and 7\Cars.Searcher\App.config"
+Relationships for "Company" database:
+	* Employee:Employee one-to-many
+	* Employee:Projects many-to-many
+	* Employee:Reports one-to-many
+	* Employee:Departments one-to-many
+Relationships for "Cars" database:
+	* Dealers:Cities many-to-many
+	* Cars:Dealers one-to-many
+	* Cars:Manufacturers one-to-many
+Query files:
+	In folder "\Problem 3 - SQL Queries\"
